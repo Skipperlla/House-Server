@@ -1,0 +1,28 @@
+{
+  "name": "housserver",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/Skipperlla/House-Server.git",
+  "author": "Ömer Esmer <oesmer437@gmail.com>",
+  "scripts": {
+    "server": "node server",
+    "dev": "nodemon server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "nodemailer": "^6.7.2",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
